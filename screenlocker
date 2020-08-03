@@ -1,0 +1,2 @@
+#!/bin/sh
+exec xautolock -detectsleep -time 10 -locker "i3lock --image ~/.config/awesome/themes/mmc.png" -notify 30 -notifier "notify-send -u critical -t 10000 -- 'locking screen in 30 seconds'"
